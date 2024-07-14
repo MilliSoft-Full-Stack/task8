@@ -535,6 +535,14 @@ footer {
     font-size: 22px;
 }
 
+.social:hover {
+    background-color: var(--white);
+}
+
+.social:hover i{
+    color: var(--dark-blue);
+}
+
 .footer-cont p a:hover {
     color: var(--dark-green);
 }
