@@ -396,7 +396,15 @@ section:nth-child(4) {
     margin: auto;
     color:var(--dark-grey);
     position: relative;
+    width: 60%;
 }
+
+@media (max-width:992px) {
+    .contact-cont form {
+        width: 80%;
+    }
+}
+
 
 .contact-cont form input {
     font-size: 20px;
